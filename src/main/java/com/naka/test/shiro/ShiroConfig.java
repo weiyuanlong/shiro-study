@@ -74,7 +74,7 @@ public class ShiroConfig {
     @Bean
     public DefaultWebSessionManager createSessionManager() {
         DefaultWebSessionManager defaultWebSessionManager = new DefaultWebSessionManager();
-        defaultWebSessionManager.setGlobalSessionTimeout(20000);
+        defaultWebSessionManager.setGlobalSessionTimeout(2000000);
         defaultWebSessionManager.setSessionIdUrlRewritingEnabled(true);
         return defaultWebSessionManager;
     }
