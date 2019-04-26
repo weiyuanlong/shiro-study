@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="utf-8">
+		<title>登陆</title>
+	</head>
+	<body>
+		<form name="loginform" id="loginform" action="http://localhost:8888/nakatest/user/login" method="post">
+			<p>
+				<label for="username">用户名<br/>
+					<input type="text" name="username" id="username" class="input" size="20" required/>
+				</label>
+			</p>
+			<p>
+				<label for="password">密码<br/>
+					<input type="password" name="password" id="password" class="input" size="20" required/>
+				</label>
+			</p>
+			<p class="submit">
+				<input type="submit" class="button button-primary button-large" value="登录"/>
+			</p>
+			<br>
+		</form>
+	</body>
+</html>
